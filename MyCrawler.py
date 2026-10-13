@@ -28,6 +28,7 @@ for x in range(len(quotes)):
     print(f'{tags[x].text}')
     time.sleep(0.1)
     print('-------------------')
+time.sleep(2)
 stored_data = []
 x = []
 for a in range(len(quotes)):
@@ -44,6 +45,7 @@ n = int(input("Enter the number of the quote you want to view between 1-10: "))
 print(f"Quote: {stored_data[0][n-1]} - {stored_data[1][n-1]}")
 
 print('-------------------')    
+time.sleep(2)
 for _ in range(len(quotes)):
     info = {
         "quote": str(quotes[_]),
@@ -54,7 +56,7 @@ for _ in range(len(quotes)):
     class User:
         def __init__(self, d):
             self.__dict__ = d
-    user = json.loads(json_str, objxct_hook=User)
+    user = json.loads(json_str, object_hook=User)
     print(f"Quote: {user.quote}")
     print(f"Author: {user.author}")
     print(f"Tags: {user.tags}")
