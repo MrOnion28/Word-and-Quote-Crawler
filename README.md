@@ -6,7 +6,7 @@ The Crawler goes on to a website and finds quotes on the specific website and it
 I made a python code which uses the website http://quotes.toscrape.com/ to find word occurrences and quotes based on their index and also printing all of them. 
 
 For it to work you need to the website http://quotes.toscrape.com/ as the url otherwise, it may not work. 
-[https://youtu.be/1dN2LYltuqE] This is the YouTube video to watch it working
+[https://youtu.be/2tIYbYY4go4] This is the YouTube video to watch it working.
 
 ### libraries
 
